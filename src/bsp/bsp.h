@@ -21,13 +21,24 @@ typedef enum {
 
 #define SW_GPIO_CLK_ENABLE()           __GPIOE_CLK_ENABLE()
 
-
 #define EXP_BOARD_POT_PIN				   GPIO_PIN_2
 #define EXP_BOARD_POT_PORT                   GPIOC
 #define EXP_BOARD_POT_PIN_CLK_ENABLE()           __GPIOC_CLK_ENABLE()
 #define EXP_BOARD_POT_ADC_CLK_ENABLE()		__ADC1_CLK_ENABLE()
 #define EXP_BOARD_POT_CLK_DISABLE()          __GPIOD_CLK_DISABLE()
 #define EXP_BOARD_POT_CHANNEL				   ADC_CHANNEL_12
+
+#define valor1 58
+#define valor2 107
+#define valor3 77
+#define valor4 90
+#define valor5 51
+#define valor6 15
+#define valor7 2
+#define valor8 5
+#define valor9 6
+#define valor10 12
+#define valor11 13
 
 void BSP_Init(void);
 
